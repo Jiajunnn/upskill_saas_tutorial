@@ -53,9 +53,20 @@ background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, F
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px white solid;
+    &:hover, &:focus {
+        background-color:#5691c8;
+    }
+}
+
 
 // Home Page Styles
-.home-callout {
+.home-callout {    
   color: white;
   margin-top: -20px;
   padding-top: 50px;
